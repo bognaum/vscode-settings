@@ -1,0 +1,49 @@
+{
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.renderWhitespace": "all",
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.autoClosingDelete": "always",
+    "cSpell.language": "ru,en-US,en,ru-RU,uk",
+    "workbench.iconTheme": "vs-nomo-dark",
+    "editor.smoothScrolling": true,
+    "vscodeGoogleTranslate.preferredLanguage": "Russian",
+    "search.showLineNumbers": true,
+    "git.showPushSuccessNotification": true,
+    "path-intellisense.showHiddenFiles": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.wordWrap": "on",
+    "editor.linkedEditing": true,
+    "explorer.compactFolders": false,
+    "html.format.enable": false,
+    "json.format.enable": false,
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "Revelation BN edition",
+    "editor.bracketPairColorization.enabled": false,
+    // "cSpell.spellCheckOnlyWorkspaceFiles": true,
+    "cSpell.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none",
+    // "editor.formatOnPaste": true,
+    // "pasteAndIndent.selectAfter": true,
+}
