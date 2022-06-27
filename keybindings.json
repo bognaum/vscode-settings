@@ -42,4 +42,9 @@
          "command": "explorer.newFolder",
          "when": "explorerViewletFocus" 
     },
+    {
+        "key": "shift+alt+=",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
 ]
