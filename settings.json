@@ -44,6 +44,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.startupEditor": "none",
+    "php.validate.enable": false,
     "scss.lint.emptyRules": "ignore",
     "css.lint.emptyRules": "ignore",
     // "editor.formatOnPaste": true,
