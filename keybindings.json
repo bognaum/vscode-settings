@@ -8,11 +8,13 @@
         "key": "ctrl+shift+alt+p",
         "command": "editor.action.inspectTMScopes"
     },
-    { "key": "ctrl+shift+/",
+    { 
+        "key": "ctrl+shift+/",
         "command": "editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly" 
     },
-    { "key": "ctrl+shift+m",
+    { 
+        "key": "ctrl+shift+m",
         "command": "editor.action.selectToBracket",
         "args": {"selectBrackets": false},
         "when": "editorTextFocus && !editorReadonly" 
@@ -33,16 +35,15 @@
         "when": "editorTextFocus && !editorReadonly" 
     },
     {
-         "key": "ctrl+n", 
-         "command": "explorer.newFile",
-         "when": "explorerViewletFocus" 
+        "key": "ctrl+n", 
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus" 
     },
     {
-         "key": "ctrl+shift+n", 
-         "command": "explorer.newFolder",
-         "when": "explorerViewletFocus" 
+        "key": "ctrl+shift+n", 
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus" 
     },
-    {
     /* {
         "key": "shift+alt+=",
         "command": "editor.action.joinLines",
