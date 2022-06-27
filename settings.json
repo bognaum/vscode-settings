@@ -44,6 +44,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.startupEditor": "none",
+    "scss.lint.emptyRules": "ignore",
+    "css.lint.emptyRules": "ignore",
     // "editor.formatOnPaste": true,
     // "pasteAndIndent.selectAfter": true,
 }
