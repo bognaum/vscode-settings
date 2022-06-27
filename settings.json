@@ -33,7 +33,6 @@
     "typescript.format.enable": false,
     "editor.insertSpaces": false,
     "editor.tabSize": 4,
-    "workbench.colorTheme": "Revelation BN edition",
     "editor.bracketPairColorization.enabled": false,
     // "cSpell.spellCheckOnlyWorkspaceFiles": true,
     "cSpell.enabled": true,
@@ -44,6 +43,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Slime TM theme in BN edition",
     "php.validate.enable": false,
     "scss.lint.emptyRules": "ignore",
     "css.lint.emptyRules": "ignore",
