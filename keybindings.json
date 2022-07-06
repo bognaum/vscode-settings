@@ -44,9 +44,64 @@
         "command": "explorer.newFolder",
         "when": "explorerViewletFocus" 
     },
+
+    // Gist-{
+    {
+        "key": "ctrl+g i",
+        "command": "extension.gist.insert",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+g ctrl+alt+o",
+        "command": "extension.gist.open",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "-extension.gist.open"
+    },
+    {
+        "key": "ctrl+g ctrl+alt+a",
+        "command": "extension.gist.add",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+alt+a ctrl+alt+a",
+        "command": "-extension.gist.add"
+    },
+    {
+        "key": "ctrl+g ctrl+alt+b",
+        "command": "extension.gist.openInBrowser",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-extension.gist.openInBrowser"
+    },
+    {
+        "key": "ctrl+g ctrl+alt+=",
+        "command": "extension.profile.select",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "-extension.profile.select"
+    },
+    {
+        "key": "ctrl+g n",
+        "command": "extension.gist.create",
+        "when": "editorTextFocus && !editorReadonly" 
+    },
+    // }-Gist
+
     /* {
         "key": "shift+alt+=",
         "command": "editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly" 
+    }, */
+    /* {
+        "key": "shift+alt+l",
+        "command": "expandLineSelection",
         "when": "editorTextFocus && !editorReadonly" 
     }, */
 ]
